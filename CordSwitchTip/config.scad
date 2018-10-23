@@ -1,22 +1,23 @@
 tipLength = 20;
 tipDiameter = 7;
 
-capGap = 0.2;
-ropeWidth = 5;
+ropeWidth = 2.5;
 
 // ---
 
+capGap = 0.2;
+tubeBigHoleDiameter = tipDiameter - 2;
+
 capBigDiameter = tipDiameter;
 capBigHeight = 2;
-capSmallDiameter = ropeWidth - capGap;
+capSmallDiameter = tubeBigHoleDiameter - capGap;
 capSmallHeight = 2;
 
 tubeLength = tipLength - capBigHeight;
 tubeDiameter = tipDiameter;
 tubeBigHoleLength = 8;
-tubeBigHoleDiameter = ropeWidth;
 tubeSmallHoleLength = tubeLength - tubeBigHoleLength;
-tubeSmallHoleDiameter = 2.5;
+tubeSmallHoleDiameter = ropeWidth;
 
 $fa = 1;
 $fs = 0.2;
